@@ -1,0 +1,31 @@
+{
+  "name": "zoom-web-clone",
+  "version": "1.0.0",
+  "description": "a zoom web clone built with node.js and ejs template engine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AizikAizik/Zoom-Web-Clone.git"
+  },
+  "author": "Isaac Ogunleye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AizikAizik/Zoom-Web-Clone/issues"
+  },
+  "homepage": "https://github.com/AizikAizik/Zoom-Web-Clone#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
