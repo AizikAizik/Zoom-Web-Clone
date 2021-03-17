@@ -44,6 +44,11 @@ io.on('connection', socket => {
         socket.on('message', message => {
             io.to(roomid).emit('createMessage', message, userName);
         });
+
+        socket.on('disconnect', () =>{
+            io.to(roomid).emit('user-disconnected', userId);
+            arr.pop();
+        })
     })
 })
 
