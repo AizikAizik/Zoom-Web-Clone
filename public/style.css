@@ -85,7 +85,7 @@ video{
 
 .main__chat_window{
     flex-grow: 1;
-    overflow-y: scroll;
+    overflow-y: none;
     scrollbar-width: none;
     scrollbar-color: #242324;
     scroll-behavior: smooth;

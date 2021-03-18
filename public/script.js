@@ -192,3 +192,11 @@ function setPlayVideo() {
 
     document.querySelector('.main__video_button').innerHTML = html;
 }
+
+const leaveBtn = document.querySelector('.leave_meeting');
+
+leaveBtn.addEventListener('click', () =>{
+    if (window.confirm("Do you really want to leave?")) {
+        window.close();
+    }
+})
